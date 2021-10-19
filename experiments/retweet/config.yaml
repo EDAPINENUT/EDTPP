@@ -1,0 +1,46 @@
+log_level: INFO
+
+data:
+  batch_size: 16
+  dataset_dir: data/retweet/
+  val_batch_size: 16
+  event_type_num: 3
+
+model:
+  encoder_type: Attention #FNet, RNN, LSTM, GRU, Attention
+  intensity_type: LogNormMix # LogNormMix, GomptMix, LogCauMix, ExpDecayMix, WeibMix, GaussianMix, 
+                                  # LogNormMixSingle, GomptMixSingle, LogCauMixSingle, ExpDecayMixSingle, WeibMixSingle, GaussianMixSingle, FNNIntegralSingle
+  time_embed_type: Linear #Linear, Trigono
+  embed_dim: 32
+  lag_step: 32
+  atten_heads: 8 # only used in Attention encoder, must be a divisor of dim_model
+  layer_num: 2 # the layers number in the encoder
+  dropout: 0.1
+  gumbel_tau: 0.8
+  l1_lambda: 0.0
+  use_prior_graph: False # only used when the ganger graph is given
+  intra_encoding: False
+
+train:
+  epochs: 100
+  lr: 5.0e-3
+  log_dir: experiments/retweet/
+  lr_decay_ratio: 0.5
+  max_grad_norm: 5
+  min_learning_rate: 1.0e-06
+  optimizer: adam
+  patience: 30
+  steps:
+  - 50
+  - 60
+  - 70
+  - 80
+  test_every_n_epochs: 10
+  experiment_name: 'stackoverflow_debug'
+  delayed_grad_epoch: 10
+  relation_inference: False
+  
+gpu: 0
+
+seed: 2020
+
