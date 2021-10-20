@@ -9,8 +9,11 @@ This is an official source code for implementation on Extensive Deep Temporal Po
 ## Reviews
 We first conclude the recent research topics on deep temporal point process as four parts:
 ``· Encoding of history sequence``
+
 ``· Relational discovery of events``
+
 ``· Formulation of conditional intensity function``
+
 ``· Learning approaches for optimization``
 <p align="center">
   <img src='./figs/fourparts.PNG' width="1200">
