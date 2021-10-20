@@ -17,7 +17,7 @@ We first conclude the recent research topics on deep temporal point process as f
 
 ``· Learning approaches for optimization``
 <p align="center">
-  <img src='./figs/fourparts.PNG?raw=true' width="1200">
+  <img src='./figs/fourparts.png?raw=true' width="1200">
 </p>
 By dismantling representative methods into the four parts, we list their contributions on temporal point process.
 
