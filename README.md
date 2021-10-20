@@ -8,6 +8,7 @@ This is an official source code for implementation on Extensive Deep Temporal Po
 
 ## Reviews
 We first conclude the recent research topics on deep temporal point process as four parts:
+
 ``· Encoding of history sequence``
 
 ``· Relational discovery of events``
@@ -16,7 +17,7 @@ We first conclude the recent research topics on deep temporal point process as f
 
 ``· Learning approaches for optimization``
 <p align="center">
-  <img src='./figs/fourparts.PNG' width="1200">
+  <img src='./figs/fourparts.PNG?raw=true' width="1200">
 </p>
 By dismantling representative methods into the four parts, we list their contributions on temporal point process.
 
