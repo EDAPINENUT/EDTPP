@@ -59,11 +59,11 @@ By dismantling representative methods into the four parts, we list their contrib
 ## Granger causality framework
 The workflows of the proposed granger causality framework:
 <p align="center">
-  <img src='./figs/variationalframe.PNG' width="700">
+  <img src='./figs/variationalframe.png' width="700">
 </p>
 Experiments shows improvements in fitting and predictive ability in type-wise intensity modeling settings. And the Granger causality graph can be obtained:
 <p align="center">
-  <img src='./figs/learned_graph.PNG' width="400" >
+  <img src='./figs/learned_graph.png' width="400" >
 </p>
 <p align="center">
     <em>Learned Granger causality graph on Stack Overflow</em>
