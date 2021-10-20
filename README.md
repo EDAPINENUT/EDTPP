@@ -69,6 +69,7 @@ Experiments shows improvements in fitting and predictive ability in type-wise in
 <p align="center">
     <em>Learned Granger causality graph on Stack Overflow</em>
 </p>
+
 ## Fair empirical study
 The results is showed in the Section 6.3. Here we give an instruction on implementation.
 ### Installation
