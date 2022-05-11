@@ -90,9 +90,9 @@ And Retweet dataset can be downloaded from [Google Drive](https://drive.google.c
 
 To preprocess the data, run the following commands
 ```bash
-python /scripts/generate_mooc_data.py
-python /scripts/generate_stackoverflow_data.py
-python /scripts/generate_retweet_data.py
+python ./scripts/generate_mooc_data.py
+python ./scripts/generate_stackoverflow_data.py
+python ./scripts/generate_retweet_data.py
 ```
 
 ### Training
