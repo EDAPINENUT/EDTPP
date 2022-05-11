@@ -98,9 +98,9 @@ python /scripts/generate_retweet_data.py
 ### Training
 You can train the model with the following commands:
 ```bash
-python main.py --config_path ./experiments/mooc/config.yaml
-python main.py --config_path ./experiments/stackoverflow/config.yaml
-python main.py --config_path ./experiments/retweet/config.yaml
+python main.py --config_filename ./experiments/mooc/config.yaml
+python main.py --config_filename ./experiments/stackoverflow/config.yaml
+python main.py --config_filename ./experiments/retweet/config.yaml
 ```
 
 The ``.yaml`` files consist following kwargs:
