@@ -26,7 +26,7 @@ def main(args):
 
         supervisor = Supervisor(**supervisor_config)
 
-        # supervisor.train()
+        supervisor.train()
         supervisor._test_final_n_epoch(1)
 
 if __name__ == '__main__':
