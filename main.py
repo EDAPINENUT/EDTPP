@@ -13,7 +13,7 @@ from models.lib.utils import SetSeed
 def main(args):
 
     with open(args.config_filename) as f:
-        supervisor_config = yaml.load(f)
+        supervisor_config = yaml.safe_load(f)
         path = Path(supervisor_config['train']['log_dir'])/supervisor_config['train']['experiment_name']
         path.mkdir(exist_ok=True, parents=True)
 
