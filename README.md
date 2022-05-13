@@ -140,7 +140,7 @@ train:
   patience: Epoch for early stopping 
   steps: Epoch numbers for learning rate decay. 
   test_every_n_epochs: 10
-  experiment_name: 'stackoverflow'
+  experiment_name: and str, such as 'stackoverflow'
   delayed_grad_epoch: 10
   relation_inference: Whether to use graph discovery, chosen in [true, false],
         if false, but intra_encoding is true, the graph will be complete.
