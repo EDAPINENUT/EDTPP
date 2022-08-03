@@ -151,7 +151,7 @@ seed: Random Seed
 ```
 If the repository is helpful to your research, please cite the following:
 ```
-@misc{https://doi.org/10.48550/arxiv.2110.09823,
+@misc{EDTPP2021Lin,
   doi = {10.48550/ARXIV.2110.09823},
   
   url = {https://arxiv.org/abs/2110.09823},
