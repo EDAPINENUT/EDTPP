@@ -149,4 +149,23 @@ gpu: The GPU number to use for training
 
 seed: Random Seed
 ```
-
+If the repository is helpful to your research, please cite the following:
+```
+@misc{https://doi.org/10.48550/arxiv.2110.09823,
+  doi = {10.48550/ARXIV.2110.09823},
+  
+  url = {https://arxiv.org/abs/2110.09823},
+  
+  author = {Lin, Haitao and Tan, Cheng and Wu, Lirong and Gao, Zhangyang and Li, Stan. Z.},
+  
+  keywords = {Machine Learning (cs.LG), Applications (stat.AP), Methodology (stat.ME), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {An Empirical Study: Extensive Deep Temporal Point Process},
+  
+  publisher = {arXiv},
+  
+  year = {2021},
+  
+  copyright = {Creative Commons Attribution 4.0 International}
+}
+```
